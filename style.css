@@ -46,7 +46,7 @@ footer {
     top: 22.5%;
     left: 50%;
     transform-style: preserve-3d;
-    transform: translateX(-50%) rotate(55deg);
+    transform: translateX(-50%) rotateX(55deg);
 }
 
 .item {
@@ -54,11 +54,11 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 45%;
+    width: 45px;
     height: 60px;
     margin: 10px;
     transform-style: preserve-3d;
-    background-color: #b0b0b0;
+    background: #b0b0b0;
 }
 
 
