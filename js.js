@@ -44,7 +44,7 @@ window.onload = function () {
     gsap.set(item, {
       rotationY: 90,
       rotationZ: index * angleIncrement - 90,
-      transformOrigin: "50% 400px",
+      transformOrigin: "30% 350px",
     });
     item.addEventListener("mouseover", function () {
       const imgInsideItem = item.querySelector("img");
